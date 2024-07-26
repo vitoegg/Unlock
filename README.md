@@ -34,6 +34,18 @@ nano /etc/dnsmasq.d/unlock.conf
 ```
 ./unlock.sh r
 ```
+卸载SNIProxy和DNSMasq
+```
+bash dnsmasq_sniproxy.sh -u
+```
+卸载SNIProxy
+```
+bash dnsmasq_sniproxy.sh -us
+```
+卸载DNSMasq
+```
+bash dnsmasq_sniproxy.sh -ud
+```
 
 服务类命令
 ```
