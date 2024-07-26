@@ -1,5 +1,6 @@
 # Unlock
 主要目的是通过解锁机的能力，让线路机具备OpenAI稳定解锁的能力
+项目完全参考自https://github.com/bingotl/dns_unlock和https://github.com/myxuchangbin/dnsmasq_sniproxy_install，仅替换其中的Domain List为自用的纯AI列表；
 
 
 ## 一、解锁机：安装sniproxy
@@ -63,6 +64,6 @@ iptables -I INPUT -s 线路机ip -p tcp --dport 443 -j ACCEPT
 iptables -I INPUT -s 线路机ip -p tcp --dport 80 -j ACCEPT
 ```
 
-# 参考
-
+> [!IMPORTANT]
+> https://github.com/bingotl/dns_unlock
 > https://github.com/myxuchangbin/dnsmasq_sniproxy_install
