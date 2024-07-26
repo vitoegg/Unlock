@@ -19,7 +19,7 @@ nano /etc/sniproxy.conf
 
 ### 1.安装DNSmasq
 ```
-wget --no-check-certificate -O unlock.sh https://raw.githubusercontent.com/bingotl/dns_unlock/main/unlock.sh && chmod +x unlock.sh
+wget --no-check-certificate -O unlock.sh https://raw.githubusercontent.com/vitoegg/Unlock/main/unlock.sh && chmod +x unlock.sh
 ```
 ```
 ./unlock.sh 解锁机IP
