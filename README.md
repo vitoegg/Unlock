@@ -4,7 +4,7 @@
 
 ## 一、解锁机：安装sniproxy
 
-### 1.安装SNIProxy
+### 1.仅安装SNIProxy
 ```
 wget --no-check-certificate -O dnsmasq_sniproxy.sh https://raw.githubusercontent.com/vitoegg/Unlock/main/dnsmasq_sniproxy.sh && bash dnsmasq_sniproxy.sh -fs
 ```
