@@ -51,7 +51,6 @@ server=1.1.1.1
 cache-size=2048
 local-ttl=60
 interface=*
-address=/bilibili.com/$1
 EOF
     while read -r domain; do
       echo "address=/$domain/$1" >> "/etc/dnsmasq.d/unlock.conf"
