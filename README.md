@@ -6,7 +6,7 @@
 
 ### 1.安装SNIProxy
 ```
-wget --no-check-certificate -O dnsmasq_sniproxy.sh https://raw.githubusercontent.com/myxuchangbin/dnsmasq_sniproxy_install/master/dnsmasq_sniproxy.sh && bash dnsmasq_sniproxy.sh -fs
+wget --no-check-certificate -O dnsmasq_sniproxy.sh https://raw.githubusercontent.com/vitoegg/Unlock/main/dnsmasq_sniproxy.sh && bash dnsmasq_sniproxy.sh -fs
 ```
 
 ### 2. 修改代理域名列表
