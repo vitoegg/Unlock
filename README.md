@@ -58,7 +58,7 @@ systemctl stop dnsmasq && systemctl disable dnsmasq
 systemctl restart dnsmasq && systemctl status dnsmasq
 ```
 ```
-systemctl start sniproxy &&systemctl enable sniproxy
+systemctl start sniproxy && systemctl enable sniproxy
 ```
 ```
 systemctl stop sniproxy && systemctl disable sniproxy
