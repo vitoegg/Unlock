@@ -11,3 +11,6 @@ geller-pa.googleapis.com
 generativelanguage.googleapis.com
 alkalicore-pa.clients6.google.com
 alkalimakersuite-pa.clients6.google.com
+instagram.com
+cdninstagram.com
+instagr.am
