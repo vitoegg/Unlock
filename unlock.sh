@@ -46,8 +46,8 @@ bogus-priv
 no-resolv
 no-poll
 all-servers
-server=8.8.8.8
 server=1.1.1.1
+server=8.8.8.8
 cache-size=2048
 local-ttl=60
 interface=*
