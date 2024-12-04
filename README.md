@@ -33,6 +33,13 @@ systemctl stop sniproxy && systemctl disable sniproxy
 ```
 systemctl restart sniproxy && systemctl status sniproxy
 ```
+入站规则：禁止外部所有ip访问本机80/443端口（执行一次就行）
+```
+iptables -I INPUT -p tcp --dport 443 -j DROP
+```
+```
+iptables -I INPUT -p tcp --dport 80 -j DROP
+```
 
 入站规则：放行某个ip访问80/443端口（按需添加）
 ```
