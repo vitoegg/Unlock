@@ -1,5 +1,5 @@
 > [!NOTE]
-> 项目完全参考自 https://github.com/bingotl/dns_unlock 和 https://github.com/myxuchangbin/dnsmasq_sniproxy_install ，仅替换其中的Domain List为自用的纯AI列表；感谢他们的付出！
+> 项目完全参考自 https://github.com/myxuchangbin/dnsmasq_sniproxy_install ，仅替换其中的Domain List为自用的纯AI列表；感谢他们的付出！
 
 
 ### 1.仅安装SNIProxy
