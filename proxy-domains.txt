@@ -20,6 +20,7 @@ anthropic.com
 claude.ai
 claudeusercontent.com
 cdn.usefathom.com
+servd-anthropic-website.b-cdn.net
 deepmind.com
 deepmind.google
 generativeai.google
